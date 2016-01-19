@@ -1,6 +1,10 @@
-Package: drat
+Package: sframe
 Version: 0.0.4
-Suggests: git2r, knitr
-License: GPL (>= 2)
-MD5sum: 5d5538cd26ff12889244a9aebcceae48
-
+License: BSD + file LICENSE
+Depends: ggplot2, RApiSerialize
+Imports: methods, Rcpp (>= 0.11.6), lazyeval (>= 0.1.10), RApiSerialize
+Suggests: RUnit, knitr, magrittr
+VignetteBuilder: knitr
+LinkingTo: Rcpp, RApiSerialize
+RoxygenNote: 5.0.1
+NeedsCompilation: no
