@@ -5,6 +5,3 @@ Imports: methods, Rcpp (>= 0.11.6), lazyeval (>= 0.1.10), RApiSerialize
 LinkingTo: Rcpp, RApiSerialize
 Suggests: RUnit, magrittr
 License: BSD + file LICENSE
-MD5sum: d37825a9d9048bfc661711d992d33ea1
-NeedsCompilation: yes
-
